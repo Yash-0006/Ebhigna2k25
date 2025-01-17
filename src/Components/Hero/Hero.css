@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+    --whitee : rgb(237, 233, 233);
+
+}
+
+.container2{
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo1 img{
+    width: 300px;
+    height : 100px;
+}
+
+.logo2{
+    font-size: 160px;
+    font-style: italic;
+    font-weight: 700;
+    padding-bottom: 80px;
+    padding:0;
+    margin:0;
+    color: var(--whitee);
+    text-wrap: true;
+    text-align: center;
+}
+
+.para{
+    color: var(--whitee);
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    width: 60%;
+    text-align: center;
+}
+
+.buttons{
+    width: 30%;    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.register{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: 700;
+    border-style: none;
+    border : 1px solid var(--whitee);
+    cursor: pointer;
+    background-color:var(--whitee) ;
+    color: black;
+}
+
+.poster{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: 700;
+    border-style: none;
+    border : 1px solid var(--whitee);
+    cursor: pointer;
+}
+
+.poster{
+    background:transparent;
+    color: var(--whitee);
+}
+
+.timer{ 
+    color: var(--whitee);
+    margin-bottom: 20px
+}
+
+.da{
+    color: var(--whitee);
+    font-weight:700;
+}
+
+@media (max-width:376px) {
+    .timer{
+        margin: 10px;
+    }
+    .container2{
+        height: 110vh;
+    }
+    .logo1 img{
+        width: 150px;
+        height : 50px;
+    }
+    .logo2{
+        font-size: 70px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        width: 100%;
+        margin : 0;
+    }
+
+    .buttons button{
+        width: 150px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .para{
+        font-weight: 600;
+        font-size: 0.6rem;
+        width: 90%;
+        line-height: 15px;
+        margin: 20px;
+    }
+    ._3cpN7{
+        width: 68px;
+    }
+
+    .da{
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 376px) and (max-width:992px){
+    .container2{
+        height: 105vh;
+    }
+    .logo1 img{
+        width: 150px;
+        height : 50px;
+    }
+    .logo2{
+        font-size: 70px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        width: 100%;
+        margin : 0;
+    }
+
+    .buttons button{
+        width: 150px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .para{
+        font-weight: 600;
+        font-size: 0.6rem;
+        width: 90%;
+        line-height: 15px;
+        margin: 20px;
+    }
+    ._3cpN7{
+        width: 72px;
+    }
+    .da{
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+}

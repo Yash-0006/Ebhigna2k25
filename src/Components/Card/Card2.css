@@ -1,0 +1,24 @@
+.card2{
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--whitee);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.card2 img{
+    width:150px;
+    height:150px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.details h1{
+    font-size: 25px;
+}
+
+@media (max-width:992px) {
+    .details h1{
+        font-size: 15px;
+    }
+}

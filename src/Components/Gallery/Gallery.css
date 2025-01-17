@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+.gallery-container{
+    font-family: "Montserrat",sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 330px;
+    padding-left:330px;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.gallery-container img{
+    user-select: none;
+}
+
+@media (max-width:992px) {
+    .gallery-container{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 100px;
+    }
+}

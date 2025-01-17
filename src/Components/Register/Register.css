@@ -1,0 +1,122 @@
+.container7{
+    font-family: "Montserrat",sans-serif;
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.inner-container{
+    margin-top: 150px;
+    color: var(--whitee);  
+    width:60%;
+    white-space: pre-wrap;
+    line-height: 25px;
+}
+
+.event-hero img{
+    width : 750px;
+    height: 400px;
+    box-shadow: 5px 5px 15px var(--whitee);
+    margin-bottom: 20px;
+}
+
+.event-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center ;
+    margin: 60px;
+}
+
+.event-desc{
+    margin-top: 20px;
+    text-align: justify;
+    border : 2px solid var(--whitee);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.3);  
+    backdrop-filter: blur(10px);
+    padding: 40px;
+}
+
+.pics{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.co{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.fac-pics{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media (max-width:992px) {
+
+    .btn{
+        margin-top: 40px;
+    }
+
+    .bttn{
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .inner-container{
+        margin-top: 100px;
+        width: 90%;
+        line-height: 20px;
+    }
+
+    .event-hero img{
+        width : 300px;
+        height : 180px;
+    }
+
+    .event-desc{
+        padding: 10px;
+    }
+
+    .event-hero h1{
+        font-size: 30px;
+    }
+
+    .event-desc h1{
+        font-size: 20px;
+    }
+
+    .event-desc p{
+        font-size: 13px;
+    }
+
+    Footer{
+        font-size: 12px;
+    }
+
+    .co{
+        font-size: 30px;
+    }
+
+    .fac-pics{
+       margin: auto ;
+    }
+
+}

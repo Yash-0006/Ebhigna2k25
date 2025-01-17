@@ -1,0 +1,167 @@
+.container4{
+    font-family: "Montserrat",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-events{
+    margin: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around ;
+
+}
+
+.half-events{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.half-events1{
+    align-items:flex-end;
+    justify-content: center;
+    
+}
+
+.special-half{
+    border-right: 2px solid var(--whitee);
+}
+
+.img{
+    padding: 40px;
+}
+
+.img img{
+    width: 250px;
+    height: 250px;  
+    border: 1px solid var(--whitee);
+    box-shadow: 10px 10px 5px rgb(96, 95, 95);
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 336px;
+    width: 370px;
+}
+
+.left-desc{
+    align-items: flex-end;
+    text-align: right;
+    border-top: 2px solid var(--whitee) ;
+}
+
+.right-desc{
+    border-bottom:2px solid var(--whitee) ;
+}
+
+.event-name{
+    color: var(--whitee);
+}
+
+.description{
+    color: var(--whitee);
+    padding-bottom: 10px;
+}
+
+.buttn{
+    width:150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.knowmore{
+    background: transparent;
+    border: 2px solid var(--whitee);
+}
+
+@media (max-width:992px) {
+    .container4{
+        margin-top: 80px;
+    }
+    .all-events{
+        flex-wrap: wrap;
+    }
+    
+    .desc{
+        border: 0;
+        width: 175px;
+        height: 240px;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .event-name{
+        font-size: 18px;
+    }
+    
+    .buttns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttn{
+        width:70px;
+        height: 30px;
+        font-size: 9px;
+    }
+
+    .half-events{
+        border: 0;
+        align-items: center;
+    }
+
+    .half-events2{
+        padding: 0;
+        margin:0;
+    }
+
+    .half-events1{
+        margin-right: 2.5rem;
+    }
+
+    .img img{
+        width: 150px;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+        box-shadow: 5px 5px 2px var(--whitee);
+    }
+
+    .img{
+        padding: 0;
+    }
+    .left-desc{
+        margin-top:10px;
+    }
+
+    .right-desc{
+        margin-bottom: 50px;
+    }
+
+    .seq-desc{
+        margin-bottom: 50px;
+    }
+
+    .seq-img{
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .be-img{
+        margin-top: 80px;
+    }
+
+    .hid-desc{
+        margin-top: 50px;
+    }
+}

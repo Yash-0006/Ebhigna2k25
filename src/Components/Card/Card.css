@@ -1,0 +1,51 @@
+.caard{
+    box-sizing: content-box;
+    width: 300px;
+    height: 320px;
+    border:1px solid var(--whitee);
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.caard img{
+    border: 1px solid var(--whitee);
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+
+.caard h1{
+    color: var(--whitee);
+    font-size: 25px;
+    padding-top: 20px ;
+    text-wrap: true;
+    line-height: 35px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.caard p{
+    color: white;
+    margin: 4px;
+}
+
+
+@media (max-width:992px){
+    .caard{
+        height:280px;
+    }
+
+    .caard img{
+        width: 180px;
+        height: 180px;
+    }
+}

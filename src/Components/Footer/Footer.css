@@ -1,0 +1,17 @@
+footer{ 
+    font-family: "Montserrat",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--whitee);
+    text-align: center;
+    height: 20px;
+    margin: 40px;
+}
+
+@media (max-width:992px) {
+    footer{
+        font-size: 14px;
+        text-align: center;
+    }
+}
