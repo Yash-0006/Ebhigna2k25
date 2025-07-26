@@ -56,9 +56,9 @@ Before getting started, make sure you have:
 
 ## Technologies Used
 
-- **Frontend:** React.js, Tailwind CSS (or Bootstrap if used)
-- **State Management:** React Context / Redux (if applicable)
-- **Routing:** React Router (if SPA)
+- **Frontend:** React.js, CSS
+- **State Management:** React Context
+- **Routing:** React Router
 - **Deployment:** Netlify
 
 ---
